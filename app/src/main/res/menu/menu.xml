@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mQLPhieuMuon"
+    android:title="Quản Lý Phiếu Mượn"
+    android:icon="@drawable/home"/>
+
+    <item android:id="@+id/mQuanLyLoaiSach"
+        android:title="Quản Lý Loại Sách"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/mQLSach"
+        android:title="Quản Lý Sách"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/mQLThanhVien"
+        android:title="Quản Lý Thành Viên"
+        android:icon="@drawable/home"/>
+</menu>
