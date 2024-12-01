@@ -26,6 +26,9 @@ public class DBHelper extends SQLiteOpenHelper {
 
      String dbPhieuMuon = "CREATE TABLE PHIEUMUON(mapm integer primary key autoincrement,matv integer references THANHVIEN(matv), matt text references THUTHU(matt), masach integer references SACH(masach), ngay text, trasach integer, tienthue integer)";
      sqLiteDatabase.execSQL(dbPhieuMuon);
+
+     sqLiteDatabase.execSQL("INSERT INTO LOAISACH VALUES (1, 'Thiếu nhi'),(2,'Tình Cảm'),(3,'Giáo Khoa')");
+     sqLiteDatabase.execSQL("INSERT INTO SACH VALUES(1,'Hãy đợi đấy',2500,1),(2,'Chú cuội',1000,1),(3,'Lập Trình Android',2000,3)");
     }
 
     @Override
