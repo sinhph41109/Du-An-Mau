@@ -5,12 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeScreen">
+    tools:context=".WelcomeScreen"
+    android:background="#E57438">
 
     <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@mipmap/book"/>
+
 
 </LinearLayout>
