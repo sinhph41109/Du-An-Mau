@@ -4,7 +4,7 @@
     android:title="Quản Lý Phiếu Mượn"
     android:icon="@drawable/home"/>
 
-    <item android:id="@+id/mQuanLyLoaiSach"
+    <item android:id="@+id/mQLLoaiSach"
         android:title="Quản Lý Loại Sách"
         android:icon="@drawable/home"/>
     <item android:id="@+id/mQLSach"

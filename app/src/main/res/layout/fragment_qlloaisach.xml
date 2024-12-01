@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Them Sach moi"
+        android:textColor="#FF0000"/>
+    <EditText
+        android:id="@+id/edtLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten Sach"/>
+    <Button
+        android:id="@+id/btThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Them"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Them Loai Sach Moi"
+        android:textColor="#FF0000"
+        android:textSize="24sp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rclLoaisach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
