@@ -13,4 +13,24 @@
     <item android:id="@+id/mQLThanhVien"
         android:title="Quản Lý Thành Viên"
         android:icon="@drawable/home"/>
+    <item android:title="Thống Kê">
+        <menu>
+            <item android:id="@+id/mTop10"
+                android:title="Top 10 sách bán nhiều nhất"
+                android:icon="@drawable/sig"/>
+            <item android:id="@+id/mDoanhThu"
+                android:title="Doanh Thu"
+                android:icon="@drawable/money"/>
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/mDoiMatKhau"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/person"/>
+            <item android:id="@+id/mThoat"
+                android:title="Thoát"
+                android:icon="@drawable/exit"/>
+        </menu>
+    </item>
 </menu>
